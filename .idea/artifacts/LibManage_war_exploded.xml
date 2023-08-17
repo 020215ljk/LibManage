@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="LibManage:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/LibManage_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="LibManage" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../../Jar package/mysql-connector-java-5.1.41-bin.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../Jar package/lombok-1.18.12.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../Jar package/mysql-connector-java-8.0.16.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="LibManage/web/Web" />
+    </root>
+  </artifact>
+</component>
